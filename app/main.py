@@ -62,4 +62,4 @@ async def get_rumus():
 # Endpoint root untuk tes API
 @app.get("/")
 async def root():
-    return {"message": "FastAPI + Elasticsearch 🚀"}
+    return {"message": "FastAPI + Elasticsearch"}
